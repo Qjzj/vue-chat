@@ -1,0 +1,333 @@
+{
+  "keys": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+  "middleware": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+  "uploadDir": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+  "security": {
+    "csrf": {
+      "enable": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+      "type": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "view": {
+    "mapping": {
+      ".html": "E:\\handler\\chat-demo\\server\\config\\config.default.ts"
+    },
+    "root": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "mongoose": {
+    "client": {
+      "url": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+      "options": {
+        "useCreateIndex": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+        "useUnifiedTopology": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+        "useNewUrlParser": "E:\\handler\\chat-demo\\server\\config\\config.default.ts"
+      }
+    },
+    "url": "E:\\handler\\chat-demo\\server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "options": "E:\\handler\\chat-demo\\server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "plugins": "E:\\handler\\chat-demo\\server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "loadModel": "E:\\handler\\chat-demo\\server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "app": "E:\\handler\\chat-demo\\server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "agent": "E:\\handler\\chat-demo\\server\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+    "fileExtensions": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+    "fileSize": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+    "autoFields": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\handler\\chat-demo\\server\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "sourceUrl": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+  "session": {
+    "maxAge": "E:\\handler\\chat-demo\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\handler\\chat-demo\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\handler\\chat-demo\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\handler\\chat-demo\\server\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "E:\\handler\\chat-demo\\server\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\handler\\chat-demo\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\handler\\chat-demo\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\handler\\chat-demo\\server\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\handler\\chat-demo\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\handler\\chat-demo\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\handler\\chat-demo\\server\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\handler\\chat-demo\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\handler\\chat-demo\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\handler\\chat-demo\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\handler\\chat-demo\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "E:\\handler\\chat-demo\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\handler\\chat-demo\\server\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\handler\\chat-demo\\server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\handler\\chat-demo\\server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\handler\\chat-demo\\server\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\handler\\chat-demo\\server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\handler\\chat-demo\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "E:\\handler\\chat-demo\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "E:\\handler\\chat-demo\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\handler\\chat-demo\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\handler\\chat-demo\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\handler\\chat-demo\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\handler\\chat-demo\\server\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\handler\\chat-demo\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\handler\\chat-demo\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\handler\\chat-demo\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\handler\\chat-demo\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\handler\\chat-demo\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\handler\\chat-demo\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\handler\\chat-demo\\server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\handler\\chat-demo\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\handler\\chat-demo\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\handler\\chat-demo\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\handler\\chat-demo\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\handler\\chat-demo\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\handler\\chat-demo\\server\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "ejs": {
+    "root": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "cache": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view-ejs\\config\\config.local.js",
+    "debug": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "delimiter": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "strict": "E:\\handler\\chat-demo\\server\\node_modules\\egg-view-ejs\\config\\config.default.js"
+  },
+  "env": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "private": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "typescript": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "declarations": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "stop": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "debug": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "test": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "cov": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "tsc": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "ci": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "autod": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "lint": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "clean": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "egg": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "nodemailer": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "@types/mocha": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "@types/node": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "@types/supertest": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "autod": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mongoose": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-ejs": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "tslib": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "typescript": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "url": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "eslintIgnore": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "author": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
+}

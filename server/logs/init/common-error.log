@@ -1,0 +1,905 @@
+2020-05-28 11:20:04,646 ERROR 6808 [-/127.0.0.1/-/11ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from E:\handler\chat-demo\server\app\view
+    at Map.resolve (E:\handler\chat-demo\server\node_modules\egg-view\lib\view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 6808
+hostname: DESKTOP-997SFUE
+
+2020-05-28 17:58:10,455 ERROR 15096 [-/127.0.0.1/-/4ms POST /user/register] nodejs.TypeError: Cannot read property 'user' of undefined
+    at UserController.create (E:\handler\chat-demo\server\app\controller\user.ts:15:16)
+    at Object.callFn (E:\handler\chat-demo\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\handler\chat-demo\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\handler\chat-demo\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\handler\chat-demo\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\handler\chat-demo\server\node_modules\koa-compose\index.js:45:18)
+    at E:\handler\chat-demo\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa-compose\index.js:44:32)
+    at E:\handler\chat-demo\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\handler\chat-demo\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\handler\chat-demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (E:\handler\chat-demo\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 15096
+hostname: DESKTOP-997SFUE
+
+2020-06-01 15:54:05,217 ERROR 4184 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4184
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:28:05,959 ERROR 6868 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6868
+hostname: DESKTOP-997SFUE
+
+2020-06-02 16:32:16,979 ERROR 14300 [-/undefined/-/924ms GET /public/upload/f885d2c746b57f347a59c88cbf6cd0b6b188b58ddb3b77580b91d0bb11b65419.pdf] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at connectionCorkNT (_http_outgoing.js:641:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 14300
+hostname: DESKTOP-997SFUE
+
+2020-06-02 16:32:38,193 ERROR 14300 [-/undefined/-/1542ms GET /public/upload/f885d2c746b57f347a59c88cbf6cd0b6b188b58ddb3b77580b91d0bb11b65419.pdf] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at connectionCorkNT (_http_outgoing.js:641:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 14300
+hostname: DESKTOP-997SFUE
+
+2020-06-02 16:36:04,163 ERROR 14300 [-/undefined/-/305ms GET /public/upload/f885d2c746b57f347a59c88cbf6cd0b6b188b58ddb3b77580b91d0bb11b65419.pdf] nodejs.EBADFError: EBADF: bad file descriptor, read
+EBADFError: EBADF: bad file descriptor, read
+errno: -4083
+code: "EBADF"
+syscall: "read"
+headerSent: true
+name: "EBADFError"
+pid: 14300
+hostname: DESKTOP-997SFUE
+
+2020-06-12 09:52:26,262 ERROR 2168 [Job#15919267462528658761338232001] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:26,264 ERROR 2168 [Job#15919267462528658761338232001] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 10ms
+2020-06-12 09:52:27,260 ERROR 2168 [Job#15919267472538658771356084002] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:27,263 ERROR 2168 [Job#15919267472538658771356084002] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:52:28,259 ERROR 2168 [Job#15919267482558658781368869003] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:28,261 ERROR 2168 [Job#15919267482558658781368869003] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:52:29,263 ERROR 2168 [Job#15919267492578658791386993004] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:29,266 ERROR 2168 [Job#15919267492578658791386993004] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 8ms
+2020-06-12 09:52:30,262 ERROR 2168 [Job#15919267502588658801396567005] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:30,265 ERROR 2168 [Job#15919267502588658801396567005] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:52:31,259 ERROR 2168 [Job#15919267512578658811391162996] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:31,259 ERROR 2168 [Job#15919267512578658811391162996] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 1ms
+2020-06-12 09:52:32,264 ERROR 2168 [Job#15919267522588658821401198007] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:32,266 ERROR 2168 [Job#15919267522588658821401198007] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:52:33,263 ERROR 2168 [Job#15919267532598658831407361998] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:33,266 ERROR 2168 [Job#15919267532598658831407361998] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:52:34,265 ERROR 2168 [Job#15919267542608658841417425009] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:34,277 ERROR 2168 [Job#15919267542608658841417425009] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 16ms
+2020-06-12 09:52:35,266 ERROR 2168 [Job#159192675526286588514401039910] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:35,270 ERROR 2168 [Job#159192675526286588514401039910] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:52:36,268 ERROR 2168 [Job#159192675626386588614474480011] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:36,270 ERROR 2168 [Job#159192675626386588614474480011] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:52:37,269 ERROR 2168 [Job#159192675726386588714519750012] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:37,274 ERROR 2168 [Job#159192675726386588714519750012] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 9ms
+2020-06-12 09:52:38,270 ERROR 2168 [Job#159192675826586588814736150013] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:38,273 ERROR 2168 [Job#159192675826586588814736150013] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:52:39,272 ERROR 2168 [Job#159192675926786588914868509914] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:39,274 ERROR 2168 [Job#159192675926786588914868509914] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:52:40,274 ERROR 2168 [Job#159192676026886589015052700015] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:40,277 ERROR 2168 [Job#159192676026886589015052700015] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 7ms
+2020-06-12 09:52:41,277 ERROR 2168 [Job#159192676127186589115279150016] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:41,281 ERROR 2168 [Job#159192676127186589115279150016] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 8ms
+2020-06-12 09:52:42,276 ERROR 2168 [Job#159192676227286589215455270017] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:42,278 ERROR 2168 [Job#159192676227286589215455270017] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:52:43,278 ERROR 2168 [Job#159192676327386589315497630018] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:43,281 ERROR 2168 [Job#159192676327386589315497630018] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 7ms
+2020-06-12 09:52:44,288 ERROR 2168 [Job#159192676427386589415546320019] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:44,296 ERROR 2168 [Job#159192676427386589415546320019] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 20ms
+2020-06-12 09:52:45,281 ERROR 2168 [Job#159192676527686589515832360020] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:45,295 ERROR 2168 [Job#159192676527686589515832360020] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 17ms
+2020-06-12 09:52:46,281 ERROR 2168 [Job#159192676627786589615885620021] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:46,284 ERROR 2168 [Job#159192676627786589615885620021] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:52:47,284 ERROR 2168 [Job#159192676727886589715974650022] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:47,290 ERROR 2168 [Job#159192676727886589715974650022] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 11ms
+2020-06-12 09:52:48,280 ERROR 2168 [Job#159192676827886589816060370023] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:48,281 ERROR 2168 [Job#159192676827886589816060370023] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 2ms
+2020-06-12 09:52:49,285 ERROR 2168 [Job#159192676927986589916100829924] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:49,299 ERROR 2168 [Job#159192676927986589916100829924] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 13ms
+2020-06-12 09:52:50,284 ERROR 2168 [Job#159192677027986590016141420025] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:50,286 ERROR 2168 [Job#159192677027986590016141420025] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:52:51,284 ERROR 2168 [Job#159192677128086590116189050026] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:51,286 ERROR 2168 [Job#159192677128086590116189050026] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:52:52,285 ERROR 2168 [Job#159192677228186590216300880027] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:52,288 ERROR 2168 [Job#159192677228186590216300880027] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:52:53,286 ERROR 2168 [Job#159192677328186590316365529928] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:53,288 ERROR 2168 [Job#159192677328186590316365529928] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:52:54,290 ERROR 2168 [Job#159192677428386590416518519929] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:54,292 ERROR 2168 [Job#159192677428386590416518519929] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 7ms
+2020-06-12 09:52:55,288 ERROR 2168 [Job#159192677528486590516601580030] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:55,291 ERROR 2168 [Job#159192677528486590516601580030] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:52:56,289 ERROR 2168 [Job#159192677628486590616631170031] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:56,291 ERROR 2168 [Job#159192677628486590616631170031] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:52:57,289 ERROR 2168 [Job#159192677728586590716692940032] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:57,291 ERROR 2168 [Job#159192677728586590716692940032] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:52:58,289 ERROR 2168 [Job#159192677828586590816730090033] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:58,292 ERROR 2168 [Job#159192677828586590816730090033] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:52:59,290 ERROR 2168 [Job#159192677928686590916793639934] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:52:59,294 ERROR 2168 [Job#159192677928686590916793639934] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 7ms
+2020-06-12 09:53:00,290 ERROR 2168 [Job#159192678028786591016893670035] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:00,293 ERROR 2168 [Job#159192678028786591016893670035] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:53:01,292 ERROR 2168 [Job#159192678128886591117003710036] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:01,294 ERROR 2168 [Job#159192678128886591117003710036] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:53:02,293 ERROR 2168 [Job#159192678228886591217063240037] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:02,294 ERROR 2168 [Job#159192678228886591217063240037] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:53:03,290 ERROR 2168 [Job#159192678328886591317054949938] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:03,291 ERROR 2168 [Job#159192678328886591317054949938] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 2ms
+2020-06-12 09:53:04,296 ERROR 2168 [Job#159192678428986591417100200039] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:04,306 ERROR 2168 [Job#159192678428986591417100200039] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 15ms
+2020-06-12 09:53:05,292 ERROR 2168 [Job#159192678529086591517213500040] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:05,293 ERROR 2168 [Job#159192678529086591517213500040] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 2ms
+2020-06-12 09:53:06,295 ERROR 2168 [Job#159192678629086591617262030041] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:06,297 ERROR 2168 [Job#159192678629086591617262030041] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:53:07,293 ERROR 2168 [Job#159192678729186591717356930042] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:07,294 ERROR 2168 [Job#159192678729186591717356930042] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 2ms
+2020-06-12 09:53:08,297 ERROR 2168 [Job#159192678829286591817369789943] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:08,303 ERROR 2168 [Job#159192678829286591817369789943] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 10ms
+2020-06-12 09:53:09,297 ERROR 2168 [Job#159192678929286591917443580044] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:09,301 ERROR 2168 [Job#159192678929286591917443580044] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 7ms
+2020-06-12 09:53:10,299 ERROR 2168 [Job#159192679029386592017498910045] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:10,304 ERROR 2168 [Job#159192679029386592017498910045] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 9ms
+2020-06-12 09:53:11,303 ERROR 2168 [Job#159192679129486592117617369946] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:11,304 ERROR 2168 [Job#159192679129486592117617369946] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 8ms
+2020-06-12 09:53:12,300 ERROR 2168 [Job#159192679229586592217734660047] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:12,302 ERROR 2168 [Job#159192679229586592217734660047] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:53:13,298 ERROR 2168 [Job#159192679329686592317735840048] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:13,299 ERROR 2168 [Job#159192679329686592317735840048] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 3ms
+2020-06-12 09:53:14,298 ERROR 2168 [Job#159192679429786592417791679949] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:14,299 ERROR 2168 [Job#159192679429786592417791679949] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 2ms
+2020-06-12 09:53:15,302 ERROR 2168 [Job#159192679529886592517878340050] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:15,306 ERROR 2168 [Job#159192679529886592517878340050] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 7ms
+2020-06-12 09:53:16,301 ERROR 2168 [Job#159192679629886592617921899951] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:16,304 ERROR 2168 [Job#159192679629886592617921899951] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:53:17,302 ERROR 2168 [Job#159192679729886592717974240052] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:17,305 ERROR 2168 [Job#159192679729886592717974240052] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:53:18,303 ERROR 2168 [Job#159192679829986592818052070053] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:18,305 ERROR 2168 [Job#159192679829986592818052070053] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 5ms
+2020-06-12 09:53:19,302 ERROR 2168 [Job#159192679929986592918023580054] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:19,304 ERROR 2168 [Job#159192679929986592918023580054] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 4ms
+2020-06-12 09:53:20,306 ERROR 2168 [Job#159192680030086593018109260055] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:20,310 ERROR 2168 [Job#159192680030086593018109260055] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 9ms
+2020-06-12 09:53:21,305 ERROR 2168 [Job#159192680130086593118168019956] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:21,310 ERROR 2168 [Job#159192680130086593118168019956] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 9ms
+2020-06-12 09:53:22,304 ERROR 2168 [Job#159192680230286593218321910057] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:22,305 ERROR 2168 [Job#159192680230286593218321910057] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 3ms
+2020-06-12 09:53:23,306 ERROR 2168 [Job#159192680330586593318590270058] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:23,307 ERROR 2168 [Job#159192680330586593318590270058] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 2ms
+2020-06-12 09:53:24,310 ERROR 2168 [Job#159192680430586593418671019959] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:24,313 ERROR 2168 [Job#159192680430586593418671019959] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 7ms
+2020-06-12 09:53:25,312 ERROR 2168 [Job#159192680530786593518865580060] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:25,314 ERROR 2168 [Job#159192680530786593518865580060] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:53:26,311 ERROR 2168 [Job#159192680630886593618914560061] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:26,315 ERROR 2168 [Job#159192680630886593618914560061] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:53:27,313 ERROR 2168 [Job#159192680730986593718994810062] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:27,317 ERROR 2168 [Job#159192680730986593718994810062] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 7ms
+2020-06-12 09:53:28,316 ERROR 2168 [Job#159192680831186593819205170063] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:28,318 ERROR 2168 [Job#159192680831186593819205170063] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 6ms
+2020-06-12 09:53:29,312 ERROR 2168 [Job#159192680931186593919223850064] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:29,312 ERROR 2168 [Job#159192680931186593919223850064] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 1ms
+2020-06-12 09:53:30,313 ERROR 2168 [Job#159192681031186594019243470065] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:30,314 ERROR 2168 [Job#159192681031186594019243470065] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 3ms
+2020-06-12 09:53:31,314 ERROR 2168 [Job#159192681131386594119380279966] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:31,315 ERROR 2168 [Job#159192681131386594119380279966] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 2ms
+2020-06-12 09:53:32,322 ERROR 2168 [Job#159192681231386594219464599967] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute error. TypeError: Cannot read property 'test' of undefined
+    at TraverseActivity.subscribe (E:\handler\chat-demo\server\app\schedule\traverse_activity.ts:16:41)
+    at Object.task (E:\handler\chat-demo\server\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (E:\handler\chat-demo\server\node_modules\egg-schedule\app.js:46:21)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (E:\handler\chat-demo\server\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:194:15)
+    at process.emit (E:\handler\chat-demo\server\node_modules\source-map-support\source-map-support.js:495:21)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-06-12 09:53:32,323 ERROR 2168 [Job#159192681231386594219464599967] E:\handler\chat-demo\server\app\schedule\traverse_activity.ts execute failed, used 9ms
+2020-06-15 11:50:31,275 ERROR 3988 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3988
+hostname: DESKTOP-997SFUE
+
+2020-06-15 15:42:14,898 ERROR 3988 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3988
+hostname: DESKTOP-997SFUE
+
+2020-06-15 15:43:04,482 ERROR 3988 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3988
+hostname: DESKTOP-997SFUE
+
+2020-06-15 15:43:57,751 ERROR 3988 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3988
+hostname: DESKTOP-997SFUE
+
+2020-06-15 15:46:59,955 ERROR 3988 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3988
+hostname: DESKTOP-997SFUE
+
+2020-06-15 15:48:06,169 ERROR 3988 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3988
+hostname: DESKTOP-997SFUE
+
+2020-06-15 16:05:15,220 ERROR 3988 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3988
+hostname: DESKTOP-997SFUE
+
+2020-06-15 17:40:39,411 ERROR 3988 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3988
+hostname: DESKTOP-997SFUE
+

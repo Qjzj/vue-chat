@@ -1,0 +1,267 @@
+2020-05-28 11:20:04,647 ERROR 6808 [-/127.0.0.1/-/11ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from E:\handler\chat-demo\server\app\view
+    at Map.resolve (E:\handler\chat-demo\server\node_modules\egg-view\lib\view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 6808
+hostname: DESKTOP-997SFUE
+
+2020-05-28 17:46:22,821 WARN 7584 [-/127.0.0.1/-/21ms POST /sendEmail] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-05-28 17:46:22,826 WARN 7584 [-/127.0.0.1/-/23ms POST /sendEmail] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (E:\handler\chat-demo\server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\handler\chat-demo\server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (E:\handler\chat-demo\server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\handler\chat-demo\server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\handler\chat-demo\server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\handler\chat-demo\server\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\handler\chat-demo\server\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (E:\handler\chat-demo\server\node_modules\koa-bodyparser\index.js:95:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "missing csrf token"
+pid: 7584
+hostname: DESKTOP-997SFUE
+
+2020-05-28 17:53:30,304 WARN 5260 [-/127.0.0.1/-/18ms POST /sendEmail] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-05-28 17:53:30,309 WARN 5260 [-/127.0.0.1/-/20ms POST /sendEmail] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\handler\chat-demo\server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\handler\chat-demo\server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (E:\handler\chat-demo\server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\handler\chat-demo\server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\handler\chat-demo\server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\handler\chat-demo\server\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\handler\chat-demo\server\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (E:\handler\chat-demo\server\node_modules\koa-bodyparser\index.js:95:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "invalid csrf token"
+pid: 5260
+hostname: DESKTOP-997SFUE
+
+2020-05-28 17:58:10,456 ERROR 15096 [-/127.0.0.1/-/4ms POST /user/register] nodejs.TypeError: Cannot read property 'user' of undefined
+    at UserController.create (E:\handler\chat-demo\server\app\controller\user.ts:15:16)
+    at Object.callFn (E:\handler\chat-demo\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\handler\chat-demo\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\handler\chat-demo\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\handler\chat-demo\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\handler\chat-demo\server\node_modules\koa-compose\index.js:45:18)
+    at E:\handler\chat-demo\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa-compose\index.js:44:32)
+    at E:\handler\chat-demo\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\handler\chat-demo\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\handler\chat-demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (E:\handler\chat-demo\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (E:\handler\chat-demo\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 15096
+hostname: DESKTOP-997SFUE
+
+2020-06-01 11:49:13,905 WARN 10560 [-/127.0.0.1/-/15ms PUT /user/update/5ed06df02d6e4d26e4b32e54] nodejs.SyntaxError: Unexpected token 
+ in JSON at position 44, check bodyParser config
+ in JSON at position 44, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (E:\handler\chat-demo\server\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (E:\handler\chat-demo\server\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"name\": \"张三\",\n\t\"age\": 18,\n\t\"sex\": \"FEMALE\n}"
+pid: 10560
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:04:22,558 WARN 13204 [-/127.0.0.1/-/18ms POST /document/create] nodejs.Error: Invalid filename: blob
+    at checkFile (E:\handler\chat-demo\server\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (E:\handler\chat-demo\server\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:189:13)
+    at Busboy.emit (E:\handler\chat-demo\server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (E:\handler\chat-demo\server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:189:13)
+    at HeaderParser.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:189:13)
+    at HeaderParser._finish (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:189:13)
+    at SBMH._sbmh_feed (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:127:10)
+status: 400
+pid: 13204
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:12:43,292 WARN 13204 [-/127.0.0.1/-/9ms POST /document/create] nodejs.Error: Invalid filename: blob
+    at checkFile (E:\handler\chat-demo\server\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (E:\handler\chat-demo\server\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:189:13)
+    at Busboy.emit (E:\handler\chat-demo\server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (E:\handler\chat-demo\server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:189:13)
+    at HeaderParser.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:189:13)
+    at HeaderParser._finish (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:189:13)
+    at SBMH._sbmh_feed (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:127:10)
+status: 400
+pid: 13204
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:13:49,999 WARN 13204 [-/127.0.0.1/-/6ms POST /document/create] nodejs.Error: Invalid filename: 123456789.pdf
+    at checkFile (E:\handler\chat-demo\server\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (E:\handler\chat-demo\server\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:189:13)
+    at Busboy.emit (E:\handler\chat-demo\server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (E:\handler\chat-demo\server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:189:13)
+    at HeaderParser.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:189:13)
+    at HeaderParser._finish (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:189:13)
+    at SBMH._sbmh_feed (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:127:10)
+status: 400
+pid: 13204
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:14:07,914 WARN 13204 [-/127.0.0.1/-/4ms POST /document/create] nodejs.Error: Invalid filename: 123456789.pdf
+    at checkFile (E:\handler\chat-demo\server\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (E:\handler\chat-demo\server\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:189:13)
+    at Busboy.emit (E:\handler\chat-demo\server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (E:\handler\chat-demo\server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:189:13)
+    at HeaderParser.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:189:13)
+    at HeaderParser._finish (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:189:13)
+    at SBMH._sbmh_feed (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:127:10)
+status: 400
+pid: 13204
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:19:12,097 WARN 13204 [-/127.0.0.1/-/7ms POST /document/create] nodejs.Error: Invalid filename: 《亿级流量网站架构核心技术-跟开涛学搭建高可用高并发系统》.pdf
+    at checkFile (E:\handler\chat-demo\server\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (E:\handler\chat-demo\server\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:189:13)
+    at Busboy.emit (E:\handler\chat-demo\server\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (E:\handler\chat-demo\server\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:189:13)
+    at HeaderParser.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:189:13)
+    at HeaderParser._finish (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:189:13)
+    at SBMH._sbmh_feed (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:159:14)
+    at SBMH.push (E:\handler\chat-demo\server\node_modules\streamsearch\lib\sbmh.js:56:14)
+    at HeaderParser.push (E:\handler\chat-demo\server\node_modules\dicer\lib\HeaderParser.js:46:19)
+    at Dicer._oninfo (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:197:25)
+    at SBMH.<anonymous> (E:\handler\chat-demo\server\node_modules\dicer\lib\Dicer.js:127:10)
+status: 400
+pid: 13204
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:44:18,502 WARN 3324 [-/127.0.0.1/-/2092ms POST /document/create] nodejs.Request_fileSize_limitError: Reach fileSize limit
+    at limit (E:\handler\chat-demo\server\node_modules\egg-multipart\app\extend\context.js:25:15)
+    at Object.saveRequestFiles (E:\handler\chat-demo\server\node_modules\egg-multipart\app\extend\context.js:146:9)
+code: "Request_fileSize_limit"
+status: 413
+name: "Request_fileSize_limitError"
+pid: 3324
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:48:38,694 WARN 13772 [-/127.0.0.1/-/914ms POST /document/create] nodejs.Request_fileSize_limitError: Reach fileSize limit
+    at limit (E:\handler\chat-demo\server\node_modules\egg-multipart\app\extend\context.js:25:15)
+    at Object.saveRequestFiles (E:\handler\chat-demo\server\node_modules\egg-multipart\app\extend\context.js:146:9)
+code: "Request_fileSize_limit"
+status: 413
+name: "Request_fileSize_limitError"
+pid: 13772
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:49:17,293 WARN 3580 [-/127.0.0.1/-/899ms POST /document/create] nodejs.Request_fileSize_limitError: Reach fileSize limit
+    at limit (E:\handler\chat-demo\server\node_modules\egg-multipart\app\extend\context.js:25:15)
+    at Object.saveRequestFiles (E:\handler\chat-demo\server\node_modules\egg-multipart\app\extend\context.js:146:9)
+code: "Request_fileSize_limit"
+status: 413
+name: "Request_fileSize_limitError"
+pid: 3580
+hostname: DESKTOP-997SFUE
+
+2020-06-02 15:49:37,456 WARN 3048 [-/127.0.0.1/-/907ms POST /document/create] nodejs.Request_fileSize_limitError: Reach fileSize limit
+    at limit (E:\handler\chat-demo\server\node_modules\egg-multipart\app\extend\context.js:25:15)
+    at Object.saveRequestFiles (E:\handler\chat-demo\server\node_modules\egg-multipart\app\extend\context.js:146:9)
+code: "Request_fileSize_limit"
+status: 413
+name: "Request_fileSize_limitError"
+pid: 3048
+hostname: DESKTOP-997SFUE
+
+2020-06-02 16:32:16,979 ERROR 14300 [-/undefined/-/924ms GET /public/upload/f885d2c746b57f347a59c88cbf6cd0b6b188b58ddb3b77580b91d0bb11b65419.pdf] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at connectionCorkNT (_http_outgoing.js:641:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 14300
+hostname: DESKTOP-997SFUE
+
+2020-06-02 16:32:38,193 ERROR 14300 [-/undefined/-/1542ms GET /public/upload/f885d2c746b57f347a59c88cbf6cd0b6b188b58ddb3b77580b91d0bb11b65419.pdf] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:704:5)
+    at Socket._write (net.js:716:8)
+    at doWrite (_stream_writable.js:410:12)
+    at clearBuffer (_stream_writable.js:540:7)
+    at Socket.Writable.uncork (_stream_writable.js:314:7)
+    at connectionCorkNT (_http_outgoing.js:641:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 14300
+hostname: DESKTOP-997SFUE
+
+2020-06-02 16:36:04,163 ERROR 14300 [-/undefined/-/305ms GET /public/upload/f885d2c746b57f347a59c88cbf6cd0b6b188b58ddb3b77580b91d0bb11b65419.pdf] nodejs.EBADFError: EBADF: bad file descriptor, read
+EBADFError: EBADF: bad file descriptor, read
+errno: -4083
+code: "EBADF"
+syscall: "read"
+headerSent: true
+name: "EBADFError"
+pid: 14300
+hostname: DESKTOP-997SFUE
+
