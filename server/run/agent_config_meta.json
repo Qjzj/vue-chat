@@ -71,7 +71,8 @@
       "options": {
         "useCreateIndex": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
         "useUnifiedTopology": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
-        "useNewUrlParser": "E:\\handler\\chat-demo\\server\\config\\config.default.ts"
+        "useNewUrlParser": "E:\\handler\\chat-demo\\server\\config\\config.default.ts",
+        "useFindAndModify": "E:\\handler\\chat-demo\\server\\config\\config.default.ts"
       }
     },
     "url": "E:\\handler\\chat-demo\\server\\node_modules\\egg-mongoose\\config\\config.default.js",
@@ -206,6 +207,7 @@
       "clean": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
+      "alipay-sdk": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
       "egg": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js",
       "nodemailer": "E:\\handler\\chat-demo\\server\\node_modules\\egg\\config\\config.default.js"

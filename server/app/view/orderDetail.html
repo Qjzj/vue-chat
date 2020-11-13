@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .wrap {
+            margin: 0 auto;
+            width: 1000px;
+        }
+
+        .view {
+            display: flex;
+        }
+
+        .view .title {
+            margin-right: 20px;
+        }
+
+        .view .price {
+            color: orangered;
+        }
+
+        .buttonLine {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            padding: 20px 0;
+            height: 60px;
+            border-top: 1px solid #e8e8e8;
+
+        }
+
+        button {
+            margin-right: 20px;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        button.cancel {
+            background-color: skyblue;
+            color: white;
+        }
+
+        button.pay {
+            background-color: chocolate;
+            color: white;
+        }
+
+        button.payed {
+            background-color: cadetblue;
+            color: white;
+        }
+
+        button.close {
+            background-color: #e8e8e8;
+            color: white;
+        }
+
+    </style>
+    <script src="/public/libs/jquery.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <h2>订单详情 <%= _id %></h2>
+    <div class="view">
+        <div class="title"><%= title %></div>
+        <div class="price"><%= price %>元</div>
+    </div>
+
+    <div class="buttonLine">
+        <% if(status === "0") { %>
+            <button class="cancel" id="btn_cancel">取消订单</button>
+            <button class="pay" id="btn_pay">立即支付</button>
+        <% } else if(status === "1") { %>
+            <button class="payed">已付款</button>
+        <% } else { %>
+            <button class="close">已关闭</button>
+        <% } %>
+    </div>
+</div>
+
+<script>
+    const id = "<%= _id %>"
+    // 取消订单
+    $('#btn_cancel').on("click", function (e) {
+      console.log(id);
+      $.ajax({
+        url: "/order/cancel/" + id,
+        type: "post",
+        success: function(res) {
+          console.log(res)
+          window.location.reload()
+        }
+      })
+    })
+    // 购买
+    $("#btn_pay").click(function() {
+      location.href = "/alipay/test/"+ id;
+      // $.ajax({
+      //   url: "/alipay/test/"+ id,
+      //   success: function (res) {
+      //     console.log(res);
+      //   }
+      // })
+    })
+</script>
+</body>
+</html>

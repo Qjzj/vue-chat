@@ -40,6 +40,7 @@ export default (appInfo: EggAppInfo) => {
         useCreateIndex: true,
         useUnifiedTopology: true,
         useNewUrlParser: true,
+        useFindAndModify: true,
       },
       // plugins: [createdPlugin, [updatedPlugin, pluginOptions]],
     }

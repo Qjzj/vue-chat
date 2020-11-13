@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="referrer" content="never">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html,body {
+            height: 100%;
+            background: #f5f5f5;
+        }
+        .view {
+            margin: 0 auto;
+            width: 1000px;
+            display: flex;
+        }
+        img {
+            margin-right: 20px;
+            width: 200px;
+        }
+        .view .txt {
+            display: flex;
+            flex-direction: column;
+        }
+        .view .txt h2 {
+            margin-bottom: 20px;
+        }
+        .view .txt p {
+            margin-bottom: 10px;
+        }
+        .view .txt .priceTxt {
+            color: crimson;
+        }
+        .view .txt .btn {
+            height: 35px;
+            background-color: orangered;
+            border: none;
+            outline: none;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+    <script src="/public/libs/jquery.min.js"></script>
+</head>
+<body>
+    <div class="view">
+        <img src="https://img.pconline.com.cn/images/product/1048/1048848/x-1.jpg" alt="">
+        <div class="txt">
+            <h2>iphone 11 pro max</h2>
+            <p>价格： <span class="priceTxt">3000.0</span>元</p>
+            <button class="btn" id="btn_buy">购买</button>
+        </div>
+    </div>
+
+    <script>
+        const buyEle = document.querySelector('#btn_buy');
+        buyEle.addEventListener("click", buy)
+
+        function buy() {
+          // 创建订单
+          $.ajax({
+            url: "/order/create",
+            type: "POST",
+            success: (res) => {
+              console.log(res);
+
+              if(res.error_code === 0) {
+                // 跳转支付
+                location.href = "/alipay/pay?trade_no=" + res.data.trade_no;
+              }
+
+            }
+          })
+
+
+        }
+    </script>
+
+</body>
+</html>

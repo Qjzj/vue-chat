@@ -903,3 +903,81 @@ name: "unhandledExceptionError"
 pid: 3988
 hostname: DESKTOP-997SFUE
 
+2020-08-11 16:04:20,903 ERROR 12520 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12520
+hostname: DESKTOP-997SFUE
+
+2020-08-12 15:36:10,876 ERROR 9952 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9952
+hostname: DESKTOP-997SFUE
+
+2020-08-12 17:16:58,821 ERROR 11744 nodejs.ReferenceError: E:\handler\chat-demo\server\app\view\orderDetail.html:16
+    14| <body>
+    15|     <h2>订单详情</h2>
+ >> 16|     <div class="title"><%= title %>></div>
+    17| </body>
+    18| </html>
+    19| 
+
+title is not defined
+    14| <body>
+    15|     <h2>订单详情</h2>
+ >> 16|     <div class="title"><%= title %>></div>
+    17| </body>
+    18| </html>
+    19| 
+
+title is not defined
+    at eval (E:\handler\chat-demo\server\app\view\orderDetail.html:12:26)
+    at orderDetail (E:\handler\chat-demo\server\node_modules\ejs\lib\ejs.js:682:17)
+    at tryHandleCache (E:\handler\chat-demo\server\node_modules\ejs\lib\ejs.js:254:36)
+    at Object.exports.renderFile (E:\handler\chat-demo\server\node_modules\ejs\lib\ejs.js:485:10)
+    at Promise (E:\handler\chat-demo\server\node_modules\egg-view-ejs\lib\view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\handler\chat-demo\server\node_modules\egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\handler\chat-demo\server\node_modules\egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\handler\chat-demo\server\node_modules\egg-view\lib\context_view.js:70:23)
+path: "E:\\handler\\chat-demo\\server\\app\\view\\orderDetail.html"
+pid: 11744
+hostname: DESKTOP-997SFUE
+
+2020-08-12 17:18:18,768 ERROR 11744 nodejs.ReferenceError: E:\handler\chat-demo\server\app\view\orderDetail.html:16
+    14| <body>
+    15|     <h2>订单详情</h2>
+ >> 16|     <div class="title"><%= title %>></div>
+    17| </body>
+    18| </html>
+    19| 
+
+title is not defined
+    14| <body>
+    15|     <h2>订单详情</h2>
+ >> 16|     <div class="title"><%= title %>></div>
+    17| </body>
+    18| </html>
+    19| 
+
+title is not defined
+    at eval (E:\handler\chat-demo\server\app\view\orderDetail.html:12:26)
+    at orderDetail (E:\handler\chat-demo\server\node_modules\ejs\lib\ejs.js:682:17)
+    at tryHandleCache (E:\handler\chat-demo\server\node_modules\ejs\lib\ejs.js:254:36)
+    at Object.exports.renderFile (E:\handler\chat-demo\server\node_modules\ejs\lib\ejs.js:485:10)
+    at Promise (E:\handler\chat-demo\server\node_modules\egg-view-ejs\lib\view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\handler\chat-demo\server\node_modules\egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\handler\chat-demo\server\node_modules\egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\handler\chat-demo\server\node_modules\egg-view\lib\context_view.js:70:23)
+path: "E:\\handler\\chat-demo\\server\\app\\view\\orderDetail.html"
+pid: 11744
+hostname: DESKTOP-997SFUE
+
